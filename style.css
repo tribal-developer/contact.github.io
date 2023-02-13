@@ -19,7 +19,7 @@ body{
   height: 100vh;
   width: 100vw;
   position: relative;
-  background-image:linear-gradient(rgba(23, 22, 22, 0.763),#c9e4cca3,#e0968403), url(img/tamara-menzi-rp0WR_5NTAk-unsplash.jpg);  
+  background-image:linear-gradient(rgba(23, 22, 22, 0.763),#c9e4cca3,#e0968403), url(tamara-menzi-rp0WR_5NTAk-unsplash.jpg);  
   background-size: cover;
   background-origin: inherit;
   background-repeat: no-repeat;
