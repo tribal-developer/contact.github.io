@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@200;400;600&family=Poppins:wght@100;200;400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+/* css variables here */
+:root{
+  --bg-color: rgb(132, 236, 132);
+  --font-color:rgb(255, 255, 255);
+  --border-btn-color:rgb(176, 243, 176);
+}
+body{
+ overflow: hidden;
+}
+.container{  
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  background-image:linear-gradient(rgba(23, 22, 22, 0.763),#c9e4cca3,#e0968403), url(img/tamara-menzi-rp0WR_5NTAk-unsplash.jpg);  
+  background-size: cover;
+  background-origin: inherit;
+  background-repeat: no-repeat;
+}
+.contact-form{  
+  width: 80vw;  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  box-shadow: 1px 1px 12px 2px green;
+  text-align: center;
+} 
+.form{
+  border: 1px solid var(--border-btn-color);
+  border-radius: 4px;  
+  text-align: center;
+  max-width:auto;
+  margin: auto;
+}
+.form .title{  
+  color:var(--font-color);
+  font-weight: 600;
+  font-size: 1.2rem; 
+  margin-top: 1rem ; 
+}
+.form .title .hr{
+  height: 3px;
+  width: 80%;
+  background-color: var(--bg-color);
+  margin: .3rem auto;
+}
+/* inputs styling  */
+
+.inputs{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 1rem 2rem;
+  text-align: left;
+}
+.inputs label{
+  margin-bottom: .5rem;
+  padding: .3rem;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: var(--font-color);
+}
+.inputs input{
+  padding: .5rem;
+  background-color: var(--bg-color);
+  outline: none;
+  border: 1px solid rgb(26, 175, 6);
+  border-radius: 4px;
+  color: var(--font-color);
+  font-size: 1rem;
+  letter-spacing: 1px;
+  margin-bottom: .5rem;
+}
+.inputs .button input{
+  padding: .6rem 2rem;
+  margin-top: 1rem;
+  border: 2px solid var(--border-btn-color);
+  border-radius: 5px;
+  background-color: rgb(34, 193, 17);
+  color: rgb(255, 254, 254);
+  font-weight: 600;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: .3s ease-out;
+}
+.inputs .button input:hover{
+  background-color:rgb(54, 224, 54) ;
+}
